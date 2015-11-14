@@ -6,13 +6,13 @@
 	<header id="header_blog">
 		<div class="blur">
 			<div id="title">
-				<h1>Blog</h1>
+				<h1>Resultados</h1>
 			</div>
 			<div id="subtitle">
 				<h2><i class="fa fa-newspaper-o"></i></h2> 
 				<h4>
 					<br>
-					What's new?
+
 				</h4>
 			</div>
 		</div>
@@ -34,7 +34,7 @@
 						</h5>
 
 						<div align="center">
-							<h5 class="text-info">Related topics:</h5>
+							<h5 class="text-info">Temas relacionados:</h5>
 							<?php
 								$tags = explode(',', $p->tags);
 							?>
@@ -44,7 +44,7 @@
 						</div>
 						<br>
 						<div align="center">
-							<a href="articles/{{$p->slug}}" class="btn btn-info">Read article...</a>
+							<a href="articles/{{$p->slug}}" class="btn btn-info">Leer más...</a>
 						</div>
 						
 					    </br>

@@ -6,13 +6,13 @@
 <header id="header_contact">
 	<div class="blur">
 		<div id="title">
-			<h1>Contact us</h1>
+			<h1>Contacto</h1>
 		</div>
 		<div id="subtitle">
-			<h2><i class="fa fa-envelope"></i></i></h2> 
+			<h2><i class="fa fa-envelope"></i></h2>
 			<h4>
 				<br>
-				Leave a message 
+				Dejanos un mensaje
 			</h4>
 		</div>
 	</div>
@@ -20,9 +20,6 @@
 
 <div class="row-fluid">
 	<div class="container">
-		<h2>
-			{{-- Contact  --}}
-		</h2>
 		<div class="jumbotron">
 			<h2>Bleu Skyy Catering Info</h2>
 			<p>Don't hesitate to reach us through any of the following means:</p>

@@ -1,5 +1,5 @@
 @extends('layout.main')
-@section('title'){{'Bleu Sky Cathering~'}}
+@section('title'){{'Panel Ciudadano'}}
 @endsection
 @section('content')
 	@include('layout.partials.main-menu')
@@ -18,41 +18,101 @@
 					</div>
 				</div>
 			@endif
-	<header>
-		<div class="blur">
-			<div id="title">
-				<h1>Bleu Skyy Catering</h1>
-			</div>
-			<div id="subtitle">
-				<h4>Cooking with passion</h4>
-			</div>
-			<div align="center">
-				<a onclick="$('#posts').animatescroll();" class="btn btn-web btn-lg">Discover <i class="fa fa-cloud"></i></a>
-			</div>
-		</div>
-	</header>
+
+    <section id="main-slider">
+        <div id="owl-demo2" class="owl-carousel owl-theme">
+
+            <div class="item" id="first-slide">
+                <div class="textoverlay"><h1>Tu opinión construye tu mundo</h1><div align="center">
+                        <a onclick="$('#posts').animatescroll();" class="btn btn-web btn-lg">Leer más... </a>
+                    </div></div>
+            </div>
+            <div class="item" id="second-slide">
+                <div class="textoverlay"><h1>Rápido y Gratis </h1></div>
+            </div>
+            <div class="item" id="third-slide">
+                <div class="textoverlay"><h1>Recibe Dinero</h1></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row marketing">
+                <div class="col-md-12 features">
+
+                    <div class="col-md-4 text-center">
+                        <div>
+                            <h3>Rápido</h3>
+                            <br/>
+                            <i class="fa fa-3x fa-fighter-jet"></i>
+
+                            <br/>
+                            <p><br/>
+                                No existe un número fijo de encuestas, pero en promedio son de 2 a 3 preguntas a la
+
+                                semana. Lo que significa menos de un minuto de tu tiempo!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div>
+                            <h3>Gratis</h3>
+                            <br/>
+                            <i class="fa fa-3x fa-smile-o"></i>
+
+                            <p><br/>
+                                Trabajamos con un sistema especial de mensajería que absorbe el costo de sus
+
+                                mensajes de respuesta.
+                            </p>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div>
+                            <h3>Recompensas</h3>
+                            <br/>
+                            <i class="fa fa-3x fa-money"></i>
+
+                            <p class="text-center"><br/>Una vez al mes, el dinero  que hayas recaudado con tus respuestas, será depositado en tu cuenta
+
+                                corriente o cuenta vista.</p>
+                            <br/>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
 	<section id="posts">
 		<div class="row-fluid">
 			<div class="container">
 				<div class="col-md-4">
 
 					<div class="jumbotron">
-						<h3>Chef John Simon</h3>
+						<h3>Hazte miembro </h3>
 						<div class="text-justify">
-							John Simon, has been in the restaurant business since 1990. After winning numerous awards and being the executive chef at some of the best restaurants in NJ & NYC he has opened up Bleu Skyy Catering in NYC.
+
+                            <h6>
+                                Si tu vivienda ha sido seleccionada para participar en este panel de
+
+                                opinión, recibirás una carta de invitación. Una vez que des tu
+
+                                consentimiento para participar, uno de nuestros investigadores te llamará
+
+                                o visitará en tu casa para que completemos tu perfil.
+                            </h6>
 						</div>
 					</div>
 
-					<div id="owl-demo2" class="owl-carousel owl-theme">
- 
-					  <div class="item"><img src="{{ asset('css/imgs/bella9.jpg') }}" class="img-responsive img-thumbnail" alt=""></div>
-					  <div class="item"><img src="{{ asset('css/imgs/bella10.jpg') }}" class="img-responsive img-thumbnail" alt=""></div>
-					  <div class="item"><img src="{{ asset('css/imgs/bella11.jpg') }}" class="img-responsive img-thumbnail" alt="	"></div>
-					 
-					</div>
-					
 
-					<legend>Contact Form</legend>
+
+
+					<legend>Contacto</legend>
 					<ul>
 					    @foreach($errors->all() as $error)
 					        <li>{{ $error }}</li>
@@ -65,7 +125,7 @@
 									{!! Form::text('name', null, 
 								        array('required', 
 								              'class'=>'form-control', 
-								              'placeholder'=>'Your name')) !!}
+								              'placeholder'=>'Nombre')) !!}
 								</div>
 							</div>
 							<br>
@@ -74,7 +134,7 @@
 									{!! Form::text('email', null, 
 								        array('required', 
 								              'class'=>'form-control', 
-								              'placeholder'=>'Your e-mail address')) !!}
+								              'placeholder'=>'E-mail')) !!}
 								</div>
 							</div>
 							<br>
@@ -83,13 +143,13 @@
 									{!! Form::textarea('message', null, 
 								        array('required', 
 								              'class'=>'form-control', 
-								              'placeholder'=>'Your message')) !!}
-									<span class="help-block">Don't forget to leave your contact information and all the details about your upcoming event.</span>
+								              'placeholder'=>'Mensaje')) !!}
+									<span class="help-block"></span>
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary">Submit <i class="fa fa-paper-plane"></i></button>
+									<button type="submit" class="btn btn-primary"> Enviar <i class="fa fa-paper-plane"></i></button>
 									<br>
 									<br>
 								</div>
@@ -111,7 +171,7 @@
 						</h5>
 
 						<div align="center">
-							<h5 class="text-info">Related topics:</h5>
+							<h5 class="text-info">Temas relacionados:</h5>
 							<?php
 								$tags = explode(',', $p->tags);
 							?>
@@ -121,39 +181,38 @@
 						</div>
 						<br>
 						<div align="center">
-							<a href="articles/{{$p->slug}}" class="btn btn-info">Read article...</a>
+							<a href="articles/{{$p->slug}}" class="btn btn-info">Leer artículo...</a>
 						</div>
 						
 					    </br>
 					@endforeach
 				</div>
 				<div class="col-md-4  jumbotron">
-					<h3>Reviews</h3>
+					<h3> Sobre nosotros</h3>
 					<div class="text-justify">
-					Star-Ledger <br>(Newark, NJ)<br><br>
-					July 4, 1999<br><br>
-					Author: Cody Kendall, Edition: FINAL, Section: SPOTLIGHT, Page: 11, Article Text:<br><br>
-					The food produced by executive chef John Simon offers a mixture of classic and New Age Italian, geared to snackers inclined toward pizza as well as big spenders looking for a hefty steak or veal chop.<br><br>
-					The menu is dazzling without being overwhelming. You can rely on finding such standards as fried calamari ($8), bruschetta ($4.50) or osso bucco ($19), but then there are the surprises.<br><br>
-					One is the delightfully sweet sfogi in saor ($8.50), a Venetian specialty - sautéed flounder topped with caramelized onions and golden raisins - such an unusual, exciting combination. Red wine vinegar introduces another note to this piece, while pine nuts add texture. Taken together, it's an unfamiliar taste, but quite compelling.</div>
-					<br><br>
+
+                    <h6>                            <strong>Panel Ciudadano</strong> de la Facultad de Gobierno UDD, es una comunidad exclusiva que representa al país con sus opiniones. Empresas, ONG’s, Fundaciones, Servicios Públicos, investigadores  y autoridades de todas las áreas de la sociedad necesitan saber la opinión de los ciudadanos y entender sus preferencias. Tu hogar ha sido seleccionado para ser parte de esta comunidad e influenciar directamente tu mundo. Además obtendrás recompensas sólo por compartir tu opinión y preferencias.
+                    </h6>
+
+                    </div>
+
+                    <br/>
 					<div align="center">
-						<a href="{{route('about')}}" class="btn btn-info center">Keep reading</a>
+						<a href="{{route('about')}}" class="btn btn-info center">Leer más...</a>
 					</div>
-				
-				
-				
-				{{-- <img src="{{ asset('css/imgs/logo.png') }}" alt=""> --}}
 
 
-			
+
 
 				</div>
 
 					
 			</div>
 		</div>
-	</section>
+
+
+
+    </section>
 	
 	@include('layout.partials.footer')
 @stop

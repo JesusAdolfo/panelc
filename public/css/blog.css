@@ -1,5 +1,7 @@
 /*Fonts*/
-
+h6{
+    font-weight: normal;
+}
 .white{
 	color: white;
 }
@@ -60,8 +62,8 @@ ul.nav a:hover {
 
 
 header{
-	background-image: url('imgs/bella1original.jpg');
-	min-height: 50vh;
+	background-image: url('imgs/laptop-charts.jpg');
+	min-height: 40vh;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
@@ -95,6 +97,69 @@ header{
 
 section{
 	height: auto;
+}
+
+#main-slider{
+    padding: 0px;
+}
+.textoverlay{
+    padding-top: 160px;
+    text-align: center;
+    font-size: 50px;
+
+}
+.textoverlay h1{
+    font-size: 60px;
+}
+#owl-demo2{
+    margin: 0px;
+    padding: 0px;
+}
+#owl-demo2 .item{
+    background: #00b3ee;
+    height: 450px;
+    color: #FFF;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center bottom !important;
+}
+#first-slide{background: url('imgs/gente1.jpg') !important;}
+#second-slide{background: url('imgs/gente2.jpg') !important;}
+#third-slide{background: url('imgs/gente3.jpg') !important;}
+
+#first-photo{background: url('imgs/foto1.jpg') !important;}
+#second-photo{background: url('imgs/foto2.jpg') !important;}
+#third-photo{background: url('imgs/foto3.jpg') !important;}
+
+
+.about_item{
+    height: 100px;
+}
+
+.features span{
+    font-size: 40px;
+}
+
+.features div{
+    padding: 10px;
+}
+.features div>div{
+    background-color: #EBEBE0;
+    border-top: 5px red !important;
+    border-radius: 5px;
+}
+
+.circle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: #4582EC;
+    text-align: center;
+    margin: 0 auto;
+    color: ghostwhite;
+    border: 3px solid #2c2c2c;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer{
@@ -192,14 +257,7 @@ footer a:visited{
   width: 100%;
   height: auto;
 }
-#owl-demo2{
-	margin-top:20px;
-}
-#owl-demo2 .item img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
  
 
 .form-group{

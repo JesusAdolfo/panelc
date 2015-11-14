@@ -45,6 +45,7 @@
 	      paginationSpeed : 400,
 	      singleItem:true,
 	      autoPlay: 3000,
+          pagination: false,
 	 
 	      // "singleItem:true" is a shortcut for:
 	      // items : 1, 

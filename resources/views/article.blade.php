@@ -18,7 +18,7 @@
 				</div>
 				<hr>
 				<div class="fb-comments" data-href="http://localhost/blog/blog/public/articles/{{$post->slug}}" data-width="100%" data-numposts="10" data-colorscheme="light"></div>
-				<a href="{{route('home')}}" class="btn btn-primary"><i class="fa fa-chevron-left"></i> Back</a>
+				<a href="{{route('home')}}" class="btn btn-primary"><i class="fa fa-chevron-left"></i> Regresar </a>
 			</div>
 			<div class="col-md-2"></div>
 		</div>

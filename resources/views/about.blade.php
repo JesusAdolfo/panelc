@@ -7,13 +7,13 @@
 	<header id="header_about">
 		<div class="blur">
 			<div id="title">
-				<h1>About Us</h1>
+				<h1>Sobre nosotros</h1>
 			</div>
 			<div id="subtitle">
-				<h2><i class="fa fa-heart-o"></i></h2> 
+				<h2><i class="fa fa-university"></i></h2>
 				<h4>
 					<br>
-					Get to know us
+					Conocenos
 				</h4>
 			</div>
 		</div>
@@ -21,38 +21,119 @@
 	
 	<div class="row-fluid">
 		<div class="container">
-			<h2>Our Story</h2>
-			<p class="text-justify jumbotron">
-				Bleu Skyy Catering is a full service off premise and drop off caterer specializing in local ingredients as well as organic fruits & vegetables, steroid free meats & wild or line caught fish. Owned by Chef John Simon who has been in the restaurant business since 1990. After winning numerous awards and being the executive chef at some of the best restaurants in NJ & NYC he has opened up Bleu Skyy Catering in NYC. His passion for food and healthy way of cooking has separated himself from the rest. At Bleu Skyy Catering you can be certain that the attention to detail is unparalleled. 
-			<h2>
-				Reviews
-			</h2>
-			<p class="text-justify jumbotron">
-				Star-Ledger, The (Newark, NJ)<br><br>
-				July 4, 1999<br><br>
-				Author: Cody Kendall, Edition: FINAL, Section: SPOTLIGHT, Page: 11, Article Text:<br><br>
-				The food produced by executive chef John Simon offers a mixture of classic and New Age Italian, geared to snackers inclined toward pizza as well as big spenders looking for a hefty steak or veal chop.<br><br>
-				The menu is dazzling without being overwhelming. You can rely on finding such standards as fried calamari ($8), bruschetta ($4.50) or osso bucco ($19), but then there are the surprises.<br><br>
-				One is the delightfully sweet sfogi in saor ($8.50), a Venetian specialty - sautéed flounder topped with caramelized onions and golden raisins - such an unusual, exciting combination. Red wine vinegar introduces another note to this piece, while pine nuts add texture. Taken together, it's an unfamiliar taste, but quite compelling.
+			<div class="jumbotron">
+                <h2>Acerca de Panel Ciudadano</h2>
+                <p class="text-justify">
+                    Panel Ciudadano de la Facultad de Gobierno UDD, es una comunidad exclusiva que representa al país con sus opiniones. Empresas, ONG’s, Fundaciones, Servicios Públicos, investigadores  y autoridades de todas las áreas de la sociedad necesitan saber la opinión de los ciudadanos y entender sus preferencias. Tu hogar ha sido seleccionado para ser parte de esta comunidad e influenciar directamente tu mundo. Además obtendrás recompensas sólo por compartir tu opinión y preferencias.
+                <h2>
+                    Facultad de Gobierno Universidad del Desarrollo
+                </h2>
+                <p class="text-justify">
 
-				
-				
-				
-				{{-- <img src="{{ asset('css/imgs/logo.png') }}" alt=""> --}}
+                    Nuestra misión es comprender e influenciar el proceso de generación,  gestión y aplicación de políticas públicas, a través del estudio e investigación en ciencia política y áreas relevantes, y formar profesionales del mejor nivel con habilidades de liderazgo e innovación en el ámbito público.
 
-
-			</p>
+                </p>
+            </div>
 		</div>
-		<div class="row-fluid">
+
+        <div class="clearfix"></div>
+        <div id="steps" class="col-md-12 jumbotron">
+            <h1 class="text-center">¿Cómo funciona?</h1>
+            <div class="col-lg-3 col-md-6">
+                <div class="circle">
+                    <h2>1</h2>
+                    <h2> Recibe <br/> las preguntas <br/></h2>
+                    <span class="fa fa-5x fa-mobile-phone"></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="circle">
+                    <h2>2</h2>
+                    <h2>Responde <br/> la encuesta!</h2>
+
+                    <i class="fa fa-4x fa-paper-plane"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="circle">
+                    <h2>3</h2>
+                    <h3>Contesta rapido, <br/> dobla tu ganancia</h3>
+                    <span class="fa fa-5x fa-clock-o"></span>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="circle">
+                    <h2>4</h2>
+                    <h2>Recibe <br/> tu premio!</h2>
+                    <span class="fa fa-4x fa-money"></span>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="container">
+            <div>
+                        <div class="col-md-6">
+                            <blockquote>
+                                Obtendrás entre $100 y $50 por cada respuesta que entregues. Si
+
+                                contestas dentro de los primeros treinta minutos desde que recibiste
+
+                                la pregunta, recibes $100. Si contestas después de treinta minutos
+
+                                recibes $50.
+                            </blockquote>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <blockquote class="blockquote-reverse">
+                                La mayoría de las veces, estas preguntas se harán vía SMS, con lo que
+
+                                podrás contestar muy rápidamente (sólo respondiendo la letra de la alternativa que elijas)
+
+                                y sin  interrumpir tus actividades cotidianas.
+                            </blockquote>
+                        </div>
+
+                        <div class="col-md-6">
+                            <blockquote>
+                                Obtén recompensas cada vez que contestas una pequeña encuesta, tres
+
+                                    o cuatro veces al mes.
+                            </blockquote>
+                        </div>
+
+                        <div class="col-md-6">
+                            <blockquote class="blockquote-reverse">
+                                Tu privacidad y la confidencialidad de tus respuestas están protegidas.
+                            </blockquote>
+                        </div>
+
+
+
+
+
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="row-fluid">
 			<div class="container">
 				<div id="owl-demo">
           
-				  <div class="item"><img src="{{ asset('css/imgs/comida1.JPG') }}" alt="Owl Image"></div>
-				  <div class="item"><img src="{{ asset('css/imgs/comida2.JPG') }}" alt="Owl Image"></div>
-				  <div class="item"><img src="{{ asset('css/imgs/comida3.JPG') }}" alt="Owl Image"></div>
-				  <div class="item"><img src="{{ asset('css/imgs/comida4.JPG') }}" alt="Owl Image"></div>
-				  <div class="item"><img src="{{ asset('css/imgs/comida5.JPG') }}" alt="Owl Image"></div>
-				  <div class="item"><img src="{{ asset('css/imgs/comida6.jpg') }}" alt="Owl Image"></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto1.jpg') }}" alt="Owl Image"></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto2.jpg') }}" alt="Owl Image"></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto3.jpg') }}" alt="Owl Image"></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto4.jpg') }}" alt="Owl Image"></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto1.jpg') }}" alt="Owl Image"></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto2.jpg') }}" alt="Owl Image"></div>
 		 
 				</div>
 			</div>

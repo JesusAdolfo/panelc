@@ -8,7 +8,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#">
-          <img height="100" src="{{ asset('css/imgs/logo2.jpg') }}" alt="bleu skyy catetering">
+          <img width="300" src="{{ asset('css/imgs/udd-universidad.gif') }}" alt="Panel Ciudadano">
             
         </a>
       </div>
@@ -16,12 +16,11 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li><a href="{{route('home')}}"> <strong>Home</strong> </a></li>
-          <li><a href="{{route('about')}}"><strong>About</strong></a></li>
-          <li><a href="#"><strong>Events</strong></a></li>
-          <li><a id="logo" href="{{route('home')}}"><img height="250" src="{{ asset('css/imgs/logo.jpg') }}" alt=""></a></li>
-          <li><a href="{{route('menus')}}"><strong>Menus</strong></a></li>
-          <li><a href="{{route('contact')}}"><strong>Contact</strong></a></li>
-          <li><a href="{{route('blog_alias')}}"><strong>Blog</strong></a></li>          
+          <li><a href="{{route('about')}}"><strong>Acerca</strong></a></li>
+          <li><a id="logo" href="{{route('home')}}"><img src="{{ asset('css/imgs/udd-universidad.gif') }}" alt=""></a></li>
+          {{--<li><a href="{{route('menus')}}"><strong>Menus</strong></a></li>--}}
+          <li><a href="{{route('contact')}}"><strong>FAQ</strong></a></li>
+          <li><a href="{{route('blog_alias')}}"><strong>Resultados</strong></a></li>
         </ul>
       </div>
     </div>
