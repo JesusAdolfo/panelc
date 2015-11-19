@@ -24,14 +24,14 @@
 
             <div class="item" id="first-slide">
                 <div class="textoverlay"><h1>Tu opinión construye tu mundo</h1><div align="center">
-                        <a onclick="$('#posts').animatescroll();" class="btn btn-web btn-lg">Leer más... </a>
+                        <a href="{{route('about')}}" class="btn btn-web btn-lg">Leer más... </a>
                     </div></div>
             </div>
             <div class="item" id="second-slide">
-                <div class="textoverlay"><h1>Rápido y Gratis </h1></div>
+                <div class="textoverlay"><h1>Influye en temas que nos afectan a todos</h1></div>
             </div>
             <div class="item" id="third-slide">
-                <div class="textoverlay"><h1>Recibe Dinero</h1></div>
+                <div class="textoverlay"><h1 style="margin-top: -50px;">Hazte escuchar. <br/> Simple y rápido. <br/> Recibe premios.</h1></div>
             </div>
 
         </div>
@@ -94,20 +94,19 @@
 				<div class="col-md-4">
 
 					<div class="jumbotron">
-						<h3>Hazte miembro </h3>
-						<div class="text-justify">
+                        <h3> Sobre nosotros</h3>
+                        <div class="text-justify">
 
-                            <h6>
-                                Si tu vivienda ha sido seleccionada para participar en este panel de
-
-                                opinión, recibirás una carta de invitación. Una vez que des tu
-
-                                consentimiento para participar, uno de nuestros investigadores te llamará
-
-                                o visitará en tu casa para que completemos tu perfil.
+                            <h6>                            <strong>Panel Ciudadano</strong> de la Facultad de Gobierno UDD, es una comunidad exclusiva que representa al país con sus opiniones. Empresas, ONG’s, Fundaciones, Servicios Públicos, investigadores  y autoridades de todas las áreas de la sociedad necesitan saber la opinión de los ciudadanos y entender sus preferencias. Tu hogar ha sido seleccionado para ser parte de esta comunidad e influenciar directamente tu mundo. Además obtendrás recompensas sólo por compartir tu opinión y preferencias.
                             </h6>
-						</div>
-					</div>
+
+                        </div>
+
+                        <br/>
+                        <div align="center">
+                            <a href="{{route('about')}}" class="btn btn-info center">Leer más...</a>
+                        </div>
+                    </div>
 
 
 
@@ -176,30 +175,34 @@
 								$tags = explode(',', $p->tags);
 							?>
 							@foreach($tags as $t)
-								<a href="tag/{{$t}}"><label class="label label-primary">{{$t}}</label></a>
+								<a href="index.php/tag/{{$t}}"><label class="label label-primary">{{$t}}</label></a>
 							@endforeach
 						</div>
 						<br>
 						<div align="center">
-							<a href="articles/{{$p->slug}}" class="btn btn-info">Leer artículo...</a>
+							<a href="index.php/articles/{{$p->slug}}" class="btn btn-info">Leer artículo...</a>
 						</div>
 						
 					    </br>
 					@endforeach
 				</div>
-				<div class="col-md-4  jumbotron">
-					<h3> Sobre nosotros</h3>
-					<div class="text-justify">
+				<div class="col-md-4">
+                    <div class="jumbotron">
+                        <h3>Hazte miembro </h3>
+                        <div class="text-justify">
 
-                    <h6>                            <strong>Panel Ciudadano</strong> de la Facultad de Gobierno UDD, es una comunidad exclusiva que representa al país con sus opiniones. Empresas, ONG’s, Fundaciones, Servicios Públicos, investigadores  y autoridades de todas las áreas de la sociedad necesitan saber la opinión de los ciudadanos y entender sus preferencias. Tu hogar ha sido seleccionado para ser parte de esta comunidad e influenciar directamente tu mundo. Además obtendrás recompensas sólo por compartir tu opinión y preferencias.
-                    </h6>
+                            <h6>
+                                Si tu vivienda ha sido seleccionada para participar en este panel de
 
+                                opinión, recibirás una carta de invitación. Una vez que des tu
+
+                                consentimiento para participar, uno de nuestros investigadores te llamará
+
+                                o visitará en tu casa para que completemos tu perfil.
+                            </h6>
+                        </div>
                     </div>
 
-                    <br/>
-					<div align="center">
-						<a href="{{route('about')}}" class="btn btn-info center">Leer más...</a>
-					</div>
 
 
 

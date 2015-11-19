@@ -6,7 +6,7 @@
 	<div class="blur">
 		<div id="tag_search">
 			<div class="col-md-12">
-				<h1 class="text-center">Entries using the tag <br> '{{$tag}}' <br><i class="fa fa-tags"></i></h1>
+				<h1 class="text-center">Entradas relacionadas con  <br> '{{$tag}}' <br><i class="fa fa-tags"></i></h1>
 			</div>
 		</div>
 
@@ -30,7 +30,7 @@
 			@endforeach
 			<br><br>
 			<div align="center">
-				<a href="{{ URL::to('articles',$p->slug) }}" class="btn btn-info">Read article...</a>
+				<a href="{{ URL::to('articles',$p->slug) }}" class="btn btn-info">Leer más...</a>
 			</div>
 			<br>
 			<legend></legend>

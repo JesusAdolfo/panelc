@@ -76,11 +76,11 @@ header{
 	background-position: bottom center;
 }
 #header_menu{
-	background-image: url('imgs/bella4original.jpg');
+	background-image: url('imgs/faq.jpg');
 	background-position: center top;
 }
 #header_contact{
-	background-image: url('imgs/bella6original.jpg');
+	background-image: url('imgs/contacto.jpg');
 }
 #header_events{
 	background-image: url('imgs/bella4original.jpg');
@@ -117,7 +117,7 @@ section{
 }
 #owl-demo2 .item{
     background: #00b3ee;
-    height: 450px;
+    height: 400px;
     color: #FFF;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -286,6 +286,10 @@ footer a:visited{
 		background-size: cover;
 		background-attachment: fixed;
 	}
+    .navbar-brand img{
+        width: 220px;
+        margin-top: 30px;
+    }
 	footer{
 		min-height: 150px;
 	}

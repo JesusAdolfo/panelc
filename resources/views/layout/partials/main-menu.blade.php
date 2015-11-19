@@ -15,12 +15,12 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="{{route('home')}}"> <strong>Home</strong> </a></li>
           <li><a href="{{route('about')}}"><strong>Acerca</strong></a></li>
+            <li><a href="{{route('menus')}}"><strong>FAQ</strong></a></li>
           <li><a id="logo" href="{{route('home')}}"><img src="{{ asset('css/imgs/udd-universidad.gif') }}" alt=""></a></li>
-          {{--<li><a href="{{route('menus')}}"><strong>Menus</strong></a></li>--}}
-          <li><a href="{{route('contact')}}"><strong>FAQ</strong></a></li>
-          <li><a href="{{route('blog_alias')}}"><strong>Resultados</strong></a></li>
+            {{--<li><a href="{{route('menus')}}"><strong>Menus</strong></a></li>--}}
+            <li><a href="{{route('blog_alias')}}"><strong>Resultados</strong></a></li>
+            <li><a href="{{route('contact')}}"><strong>Contacto</strong></a></li>
         </ul>
       </div>
     </div>

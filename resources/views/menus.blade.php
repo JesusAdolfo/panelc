@@ -1,5 +1,5 @@
 @extends('layout.main')
-@section('title'){{  ' Menus | Bleu Sky Catering'}}@endsection
+@section('title'){{  ' FAQ | Panel Ciudadano'}}@endsection
 @section('content')
   @include('layout.partials.main-menu')
 
@@ -8,23 +8,22 @@
   <header id="header_menu">
     <div class="blur">
       <div id="title">
-        <h1>Menus</h1>
+        <h1>FAQ </h1>
       </div>
       <div id="subtitle">
-        <h2><i class="fa fa-book fa-2x"></i></h2> 
+        <h2><i class="fa fa-book fa-question-circle"></i></h2>
         <h4>
-          <br>
-            Check out what we've got for you!
+          <br>Preguntas Frecuentes
         </h4>
       </div>
     </div>
   </header>
   
-     <div class="container">
-       <div class="well text-center">
-        <h4>Minimum order 10 persons. Service and delivery fee may apply</h4>
-      </div>
-     </div>
+     {{--<div class="container">--}}
+       {{--<div class="well text-center">--}}
+        {{--<h4>Minimum order 10 persons. Service and delivery fee may apply</h4>--}}
+      {{--</div>--}}
+     {{--</div>--}}
   
 
   <div class="row-fluid">
@@ -32,31 +31,13 @@
       <div class="center jumbotron">
         <ul class="nav nav-tabs">
 
-          {{-- Breakfast Menu --}}
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-              Breakfast <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class=""><a href="#breakfast1" data-toggle="tab" aria-expanded="false">Menu Catering Breakfast</a></li>
-              <li class="divider"></li>
-              <li class=""><a href="#breakfast2" data-toggle="tab" aria-expanded="false">Menu Catering Breakfast Sandwiches</a></li>
-            </ul>
-          </li>
 
 
+          <li class="active in"><a href="#miembros" data-toggle="tab" aria-expanded="false">Miembros del Panel</a></li>
+          <li class=""><a href="#encuestas" data-toggle="tab" aria-expanded="false">Encuestas</a></li>
+          <li class=""><a href="#recompensas" data-toggle="tab" aria-expanded="false">Recompensas</a></li>
+          <li class=""><a href="#privacidad" data-toggle="tab" aria-expanded="false">Privacidad</a></li>
 
-
-          {{-- Lunch Menu --}}
-          <li class=""><a href="#lunch1" data-toggle="tab" aria-expanded="false">Lunch</a></li>
-
-          {{-- Snacks Menu --}}
-          <li class=""><a href="#Snacks" data-toggle="tab" aria-expanded="false">Snacks</a></li>
-          {{-- Desserts Menu --}}
-          <li class=""><a href="#Desserts" data-toggle="tab" aria-expanded="false">Desserts</a></li>
-          {{-- Saladas Menu --}}
-          <li class=""><a href="#Salads" data-toggle="tab" aria-expanded="false">Salads</a></li>
-          <li class=""><a href="#hors" data-toggle="tab" aria-expanded="false">Hors d’Oeuvres</a></li>
           
 
 
@@ -65,234 +46,124 @@
 
         {{-- Contenido --}}
         <div id="myTabContent" class="tab-content">
-          <div class="tab-pane fade text-center" id="breakfast1">
+
+          <div class="tab-pane fade text-center active in" id="miembros">
             <p>
-              <h2>Menu Catering Breakfast</h2>
-              <strong>
-                All breakfast options include coffee (organic Sumatra), Tea (assorted), utensils, plates and napkins. <br>
-                All eggs (hormone & steroid free) acquired from Paisley Farms N.Y. <br>
-                All items made fresh & in-house
-              </strong>
-              <br>
-              <h3>Option One (10$)</h3>
-              <p>Croissants, Pan Au Chocolate, Cranberry Scones, Mini Pumpkin Seed Muffins</p>
-              <br>
-              <h3>Option Two (13$)</h3>
-              <p>
-                Croissants, Pan Au Chocolate, Cranberry Scones, Mini Pumpkin Seed Muffins <br>
-                Individual Parfaits - Cottage Cheese (Low fat), fresh Peaches, Sugar in the Raw, fresh Mint <br>
-                Classic French Toast filled with Cream Cheese & fresh Strawberries <br>
-              </p>
-              <br>
-              <h3>Option Three (15$)</h3>
-              <p>Croissants, Pan Au Chocolate, Cranberry Scones, Mini Pumpkin Seed Muffins</p>
-              <h4>Choice</h4> 
-                Individual Parfaits - Cottage Cheese (Low fat), fresh Peaches, Sugar in the Raw, fresh Mint <br>
-                Or <br>
-                Greek Yogurt (Low fat), Pumpkin Seed Granola, Strawberries, Blackberries & Mint
-              <h4>Choice</h4>
-                Roasted Vegetable Frittata’s - Organic Zucchini, Yellow Squash & Red Bell Peppers<br>
-                Or<br>
-                4 Cheese Omelets (Open Faced) Asiago, Gouda, Cheddar & Mozzarella Cheeses
-                Egg Whites available – Additional $2 charge per person
-              <h4>Choice</h4>
-                In-House Smoked Black Peppercorn Crusted Pork Bacon<br>
-                Or<br>
-                Equinox Farms Turkey Bacon
-                <br><br>
-                
-                <strong>
-                  Fresh Fruit Salad of the Season Available for any breakfast option – Additional $4 per person
-                  Assorted Juices & bottled waters (Fiji) – Additional $2 per person
-                </strong> 
-              <br>
-
-            </p>
-          </div>
-
-          <div class="tab-pane fade text-center" id="breakfast2">
-            <p>
-              <h2>Menu Catering Breakfast Sandwiches</h2>
-              <strong>
-                All breakfast options include coffee (organic Sumatra), Tea (assorted), utensils, plates and napkins. <br>
-                All eggs (hormone & steroid free) acquired from Paisley Farms N.Y. <br>
-                All items made fresh & in-house
-              </strong>
-              <br>
-              <br>
-              <h3>Breakfast Egg Sandwiches  &#171;Option Four&#187; (8$)</h3>
-              <br><h4>Choose 4</h4>
-                <p>
-                  <i class="fa fa-square-o"></i> Egg & American Cheese <br><br>
-                  <i class="fa fa-square-o"></i> Pork Bacon – Egg & American Cheese <br><br>
-                  <i class="fa fa-square-o"></i> Turkey Bacon - Egg & American cheese <br><br>
-                  <i class="fa fa-square-o"></i> Vegan! Roasted Organic Zucchini, Yellow Squash, Red Bell Pepper  <br><br>
-                  <i class="fa fa-square-o"></i> Pork Sausage – Egg & American cheese <br><br>
-                  <i class="fa fa-square-o"></i> Turkey Sausage – Egg & Provolone Cheese <br><br>
-                  <i class="fa fa-square-o"></i> Roasted Pepper, Spinach, Egg White & Provolone Cheese <br><br>
-                  <i class="fa fa-square-o"></i> Cherry Tomato, Basil, Egg White & Mozzarella Cheese <br><br>
-                  <i class="fa fa-square-o"></i> Andouille Sausage, Hot Cherry Pepper, Egg & Gouda <br><br>
-                </p>                
-                <strong>
-                  Fresh Fruit Salad of the Season Available for any breakfast option – Additional $4 per person
-                  Assorted Juices & bottled waters (Fiji) – Additional $2 per person
-                </strong> 
-              <br>
-
-            </p>
-          </div>
-
-
-
-          <div class="tab-pane fade text-center active in" id="lunch1">
-            
-            <h2>Option 1: $14 per person</h2>
-            <h5>Service & delivery fee may apply</h5>
-            <h3>Cold Sandwich Platter, All served with Iceberg Lettuce & Lucky Tomatoes (choose 3)</h3>
-            <p class="">
-              <i class="fa fa-square-o"></i> Albacore Tuna, cottage cheese, fresh dill <br>
-              <i class="fa fa-square-o"></i> Poached Chicken Breast, mayonnaise, celery, roasted red peppers<br>
-              <i class="fa fa-square-o"></i> Vegan – Bell Peppers, Olives, Roma Tomato Confit, Cremini Mushrooms, Lettuce, Zucchini Ribbons<br>
-              <i class="fa fa-square-o"></i> Poached Sockeye Salmon, capers, fresh dill, red onion, citrus aioli<br>
-              <i class="fa fa-square-o"></i> Roasted Lemon-Thyme Turkey Breast, Aged Provolone<br>
-              <i class="fa fa-square-o"></i> Peppercorn Crusted Roast Beef, American cheese, Burgundy Aioli<br>
-              <i class="fa fa-square-o"></i> House Smoked Local Ham, Muenster Cheese<br>
-              <br><br><u>Cold Sandwich Platter includes:</u><br>
-              Assorted Dressings & Vinaigrettes <br>
-              Gherkins <br>
-              Mixed Green Salad<br>
-              Whole Wheat Pasta Salad<br>
-              Assorted Juices, Sodas & Waters<br>
-              <br><br>
-              <h2>Option 2: $16 per person</h2>
-              <h5>Service & delivery fee may apply</h5>
-            <h3>Hot Sandwiches (choose 3)</h3>
-            <p class="">
-
-              <i class="fa fa-square-o"></i> Grilled Chicken Breast, Roasted Peppers, Aged Provolone, Basil <br>  
-              <i class="fa fa-square-o"></i> Pulled Pork, Tamarind BBQ Sauce, Caramelized Onion, Pickled Jalapeno<br>  
-              <i class="fa fa-square-o"></i> Hot Vegetarian - Bell Peppers, Olives, Roma Tomato Confit, Cremini Mushrooms, Lettuce, Hot Cherry Peppers, Melted - aged Provolone<br>  
-              <i class="fa fa-square-o"></i> Grilled Japanese Eggplant, Sundried Tomatoes, Sautéed Spinach, shaved Parmigiano Reggiano Cheese<br>  
-              <i class="fa fa-square-o"></i> Panko Crusted Chicken Breast, tomato Confit, basil & Fresh Mozzarella<br>  
-              <i class="fa fa-square-o"></i> Classic Cuban<br>  
-            </p>
-            <br><br>
-            <h2>Option 3: 19$ per person</h2>
-            <h3>Entrees: Choose 3</h3>
-            <h5>Service & delivery fee may apply</h5>
-            <p class="">
-              <i class="fa fa-square-o"></i> Smoked Long Island Duck & Date Meatballs, roasted red pearl onions, tri color baby carrots, celery root, butternut squash, fresh sage, fresh thyme <br><br>
-              <i class="fa fa-square-o"></i> Braised Beef Short Rib, Pinot Noir-Juniper-Demi Glace’ <br><br>
-              <i class="fa fa-square-o"></i> Chicken Roulade filled with, sautéed baby spinach, chevre, sundried tomatoes, roasted chicken jus <br><br>
-              <i class="fa fa-square-o"></i> Oven Roasted Pork Loin, dried apricots, prosciutto, sherry-tarragon sauce <br><br>
-              <i class="fa fa-square-o"></i> Lobster Mac n 4 cheese sauce <br><br>
-              <i class="fa fa-square-o"></i> Country Style Mac n Cheese <br><br>
-              <i class="fa fa-square-o"></i> Grilled Lemon-Thyme Turkey Breast, Meyer lemon-Pinot Grigio Sauce <br><br>
-              <i class="fa fa-square-o"></i> Chicken Breast, kalamatta olives, grape tomatoes, roasted garlic, sherry-cream sauce <br><br>
-              <i class="fa fa-square-o"></i> Classic Beef Burgundy, roasted root vegetables of the season <br><br>
-              <i class="fa fa-square-o"></i> Sockeye Salmon, soy-maple glaze, toasted panko <br><br>
-              <i class="fa fa-square-o"></i> Chatham Cod (Fresh Herb Crusted), Heirloom tomato salsa  <br><br>
-              <i class="fa fa-square-o"></i> Soba Noodles, Asian vegetables, spicy soy-maple sauce <br><br>
-              <i class="fa fa-square-o"></i> Sodas & bottled waters (Fiji) – Additional $2 per person  <br><br>
-            </p>
-
-              <br><strong>"For pricing information, please contact us at order@bleuskyycatering.com"  </strong>
-            </p>
-          </div>
-
-
-
-
-
-          <div class="tab-pane fade text-center" id="Snacks">
-            <h2>Snacks</h2>
-              
-            <strong>Priced Per Person</strong><br><br><br>
-              <i class="fa fa-square-o"></i> Coffee & Tea $3 <br><br>
-              <i class="fa fa-square-o"></i> Juices Sodas & Waters $3 <br><br>
-              <i class="fa fa-square-o"></i> Candy $3 <br><br>
-              <i class="fa fa-square-o"></i> Cakes & Danishes $5 <br><br>
-              <i class="fa fa-square-o"></i> Nuts n Dried Fruits $5 <br><br>
-              <i class="fa fa-square-o"></i> Cheese Platter with Fresh Berries $8 <br><br>
-              <i class="fa fa-square-o"></i> Cookies $4 <br><br>
-              <i class="fa fa-square-o"></i> Whole fruit $4 <br><br>
-              <i class="fa fa-square-o"></i> Chips & Dips $3 <br><br>
-              <i class="fa fa-square-o"></i> Crudité $4 <br><br>
-              <i class="fa fa-square-o"></i> Flat Breads $4 <br><br>
-              <i class="fa fa-square-o"></i> Tea Sandwiches $3 <br><br>
-          </div>
-          <div class="tab-pane fade text-center" id="Desserts">
-              <h2>Bleu Skyy Desserts</h2>
-              <h4>Whole Cakes Serve 12 people</h4>
-              <br>
-              <i class="fa fa-square-o"></i> Biscotti Crusted Cheesecake - $30<br><br>
-              <i class="fa fa-square-o"></i> Gluten Free Chocolate Torte - $32<br><br>
-              <i class="fa fa-square-o"></i> Gluten Free Carrot & Cranberry Cake - $26<br><br>
-              <i class="fa fa-square-o"></i> Tart Tartine (Caramelized Pear Cake) - $30<br><br>
-              <i class="fa fa-square-o"></i> Banana Walnut Cake - $27<br><br>
-              <i class="fa fa-square-o"></i> Tiramisu - $30<br><br>
-              <i class="fa fa-square-o"></i> Decadent Triple Chocolate Cake - $35<br><br>
-              <i class="fa fa-square-o"></i> Cupcakes - $2 per<br><br>
-              <i class="fa fa-square-o"></i> Almond Torte - $32<br><br>
-              <i class="fa fa-square-o"></i> Coconut Crème Cake - $32<br><br>
-              <i class="fa fa-square-o"></i> Individual Crème Brule’  - $4 per<br><br>
-              <i class="fa fa-square-o"></i> Individual Flan - $4 per<br><br>
-              <i class="fa fa-square-o"></i> Individual Panna Cotta - $4 per<br><br>
-              <i class="fa fa-square-o"></i> Individual Butter Scotch Pudding - $3<br><br>
-              <i class="fa fa-square-o"></i> Individual Valrhona Chocolate Mousse - $4<br><br>
-              <i class="fa fa-square-o"></i> Individual White Chocolate Cake - $5<br><br>
-              <i class="fa fa-square-o"></i> Dobos Torta (7 layer cake) hazelnut cream - $42<br><br>
-              <i class="fa fa-square-o"></i> Petite Fours  - $5 per four<br><br>
+              <h2>Panelistas / Miembros del Panel</h2>
               <br/><br/>
-              Organic Sumatra Coffee, Assorted Teas, Water & Milk - $3 per person<br><br>
-              <br><strong>"For pricing information, please contact us at order@bleuskyycatering.com"  </strong>
+              <h3>¿Qué tengo que hacer como miembro de Panel Ciudadano?</h3>
+              <p class="text-justify">Los panelistas / miembros del panel reciben encuestas vía mensaje de texto (SMS) a sus teléfonos celulares. En su gran mayoría, las encuestas son 2 o 3 preguntas con alternativas de selección múltiple, y tú eliges la alternativa de tu preferencia. Lo hicimos por SMS para que sea lo más fácil y cómodo para ustedes. Una encuesta promedio no demora más de 30 segundos en ser contestada.</p>
+
+              <br/><br/>
+
+              <h3>¿Qué diferencia puedo hacer al unirme a Panel Ciudadano?</h3>
+
+              <p class="text-justify"> Te estas uniendo a una exclusiva comunidad de opinión! Tus respuestas son usadas para tomar decisiones críticas tanto en materia de políticas públicas como en empresas privadas. En Panel Ciudadano tu opinión tiene impacto en decisiones que afectan a muchas personas como tú.</p>
+              <br/><br/>
+              <h3>¿Pueden unirse mis amigos y familia?</h3>
+
+              <p class="text-justify">              Los hogares que recibieron la invitación a participar en Panel Ciudadano, fueron seleccionados en un estudio estadístico realizado por especialistas de la Universidad del Desarrollo. Los mayores de 18 años que residen en ese hogar son bienvenidos a ser miembros de nuestro panel. Amigos y familiares que no residen en el hogar, no podrán unirse al panel en esta primera etapa.
+              </p>
+              </p>
           </div>
 
-          <div class="tab-pane fade text-center" id="Salads">
-            <h2>Salads </h2><br>
-            <i class="fa fa-square-o"></i> Mixed Baby Greens (Tot Soi, romaine, red oak, frisee) <br><br>
-            <i class="fa fa-square-o"></i> Classic Caesar, Garlic croutons, shredded Parmigiano <br><br>
-            <i class="fa fa-square-o"></i> Garden Salad (grape tomato, English cucumber, shredded carrot, red onion) <br><br>
-            <i class="fa fa-square-o"></i> Asian (Mizuna greens, tot soi greens, daikon radish, sesame seed) <br><br>
-            <i class="fa fa-square-o"></i> Turkey Cobb (bleu cheese, bacon, hard-boiled egg, grape tomato, avocado, grilled turkey breast) <br><br>
-            <i class="fa fa-square-o"></i> Baby Arugula, red onion, roasted peppers, fresh mozzarella <br><br>
-            <i class="fa fa-square-o"></i> Red Quinoa, walnuts, dried cranberries, fresh mint <br><br>
-            <i class="fa fa-square-o"></i> Whole wheat penne, black olives, sundried tomato, English cucumber, red bell pepper <br><br>
-            <i class="fa fa-square-o"></i> Israeli couscous, feta cheese, artichoke hearts, kalamatta olives, pimiento peppers, grilled zucchini <br><br>
-            <i class="fa fa-square-o"></i> Vine ripe tomato, red onion, fresh basil, fresh oregano <br><br>
-            <br><strong>"For pricing information, please contact us at order@bleuskyycatering.com"  </strong>
-          </div> 
+
+
+          <div class="tab-pane fade text-center" id="encuestas">
+            
+            <h2>Encuestas</h2>
+              <br/><br/>
+
+              <h3>¿Sobre qué temas tratan las encuestas?</h3>
+              <p class="text-justify">Nuestras encuestas cubren todo tipo de temas. Por eso nuestro panel es tan interesante! Temas de contingencia nacional o local, políticas del gobierno, nuevos servicios o productos que salieron al mercado, deportes, cultura, salud, etc.</p><br/><br/>
+
+              <h3>¿Cómo se responde?</h3>
+              <p class="text-justify">Las preguntas vienen con alternativas múltiples y  usted debe responder ÚNICAMENTE  la alternativa elegida. Recuerde que no existen respuestas incorrectas, sólo necesitamos tu opinión.
+                  *Si recibe una “pregunta abierta”, es decir, una pregunta sin alternativas de respuesta, le señalaremos específicamente como responder.
+              </p><br/><br/>
+
+              <h3>¿Cuántas encuestas me enviarán? </h3>
+              <p class="text-justify">No existe un número fijo de encuestas, pero en promedio son de 2 a 3 preguntas a la semana. Lo que significa menos de un minuto de tu tiempo!
+              </p><br/><br/>
+
+              <h3>¿Puedo contestar de otra forma que no sea mensaje de texto (SMS)?</h3>
+              <p class="text-justify">La ventaja que entregan los mensajes de texto (SMS), es que cualquier celular puede enviar y recibirlos. No se necesita tener Smartphone, conexión a internet o algún tipo de plan especial para poder interactuar con ellos. Y como queremos que todo hogar seleccionado pueda participar, hemos elegido este medio de comunicación. En esta primera etapa este será el único canal de participación.
+                  *Les avisaremos cuando incluyamos nuevos canales de participación.
+              </p><br/><br/>
+
+              <h3>¿Mis mensajes de texto (SMS) tienen algún costo para mí?</h3>
+              <p class="text-justify">Por ningún motivo! Trabajamos con un sistema especial de mensajería que absorbe el costo de sus mensajes de respuesta.</p>
+
+          </div>
+
+
+
+
+
+          <div class="tab-pane fade text-center" id="recompensas">
+            <h2>Recompensas</h2>
+              <br/><br/>
+
+              <h3>              ¿Cómo gano dinero con mis respuestas?
+              </h3>
+
+              <p class="text-justify">              Cada respuesta que nos envías se traduce en dinero. Si contestas dentro de los primeros 30 minutos desde que recibiste la pregunta, recibes $100. Si contestas después de 30 minutos recibes $50.
+              </p><br/><br/>
+
+              <h3>              ¿Cómo recibiré las recompensas?
+              </h3>
+
+              <p class="text-justify">              Una vez al mes, el dinero  que hayas recaudado con tus respuestas, será depositado en tu cuenta corriente o cuenta vista.
+              </p><br/><br/>
+
+
+          </div>
+          <div class="tab-pane fade text-center" id="privacidad">
+              <h2>Privacidad</h2>
+
+              <br/><br/>
+
+              <h3>¿Qué tipo de información guardan sobre mí?</h3>
+
+              <p class="text-justify">              Si te unes a nuestro panel, te preguntaremos tu nombre, dirección, información de contacto, y algunos datos demográficos como edad y nivel educacional. Luego nuestro sistema guardará las respuestas a las encuestas que contestas.
+              </p><br/><br/>
+
+              <h3>              ¿Cómo mantienes mi información personal y respuestas en confidencialidad?
+              </h3>
+
+              <p class="text-justify">Nosotros protegemos la identidad de todos los miembros de nuestro panel. La información que entregamos a nuestros clientes es anónima, y nunca enviaremos información personal. Agrupamos todas las respuestas y se presentan en un reporte estadístico. Es decir, trabajamos con información agregada, no individual.
+                  Por ejemplo: <br/>
+                  <p class="text-center">
+                    <img class="img-responsive img-thumbnail" src="{{ asset('css/imgs/grafica1.png') }}" alt=""/>
+                  </p>
+                  Entre los que votaron por Matías Del Río, el 65% son mujeres.
+
+                  <br/><br/>
+              <p class="text-center">
+                  <img class="img-responsive img-thumbnail" src="{{ asset('css/imgs/grafica2.png') }}" alt=""/>
+              </p>
+              La seguridad y privacidad de la información de los panelistas es clave para nuestro éxito y credibilidad.
+
+              </p><br/><br/>
+
+              <h3>              ¿Recolectan información sobre mi familia? ¿Sobre mis hijos?
+              </h3>
+
+              <p class="text-justify">              Recolectamos información sobre los miembros del panel. Todo mayor de 18 años que reside en un hogar seleccionado puede unirse, pero no recolectaremos información de quienes no quieren participar ni de los residentes menores de edad.
+              </p>
+
+              <br/><br/>
+
+              <h3>POLÍTICA DE PRIVACIDAD</h3>
+              <p class="text-justify">              La Facultad de Gobierno de la Universidad del Desarrollo adhiere a lo establecido en la ley Orgánica N° 17.374 del Ministerio de Economía que, en el Artículo 29, determina lo siguiente: “El Instituto Nacional de Estadísticas, los organismos fiscales, semifiscales y empresas del Estado, y cada uno de sus respectivos funcionarios, no podrán divulgar los hechos que se refieren a personas o entidades determinadas de que hayan tomado conocimiento en el desempeño de sus actividades. El estricto mantenimiento de estas reservas constituye el “SECRETO ESTADISTICO”. Su infracción por cualquier persona sujeta a esta obligación, hará incurrir en el delito previsto por el artículo 247 del Código Penal
+              </p>
+
+
+          </div>
+
+
           
-          <div class="tab-pane fade text-center" id="hors">
-            <h2>Hors d’Oeuvres </h2><br>
-            <h4>
-              $4 each per person <br>
-              Wait staff available, service fee to apply 
 
-            </h4><br><br>
-            <i class="fa fa-square-o"></i> Mini biscuits, quail egg, black diamond cheddar, turkey bacon<br><br>
-            <i class="fa fa-square-o"></i> Tuna Tartar, Szechuan wonton chips, avocado, jalapeno, daikon sprouts <strong>+$2</strong><br><br>
-            <i class="fa fa-square-o"></i> Marjoram-Ginger crusted dry sea scallop, soy maple dipping sauce <strong>+$2</strong><br><br>
-            <i class="fa fa-square-o"></i> Duck & Date meatball skewers<br><br>
-            <i class="fa fa-square-o"></i> Lobster “cream puffs”, tarragon cream <strong>+$2</strong><br><br>
-            <i class="fa fa-square-o"></i> Poached Tiger shrimp, English cucumber & red radish relish<br><br>
-            <i class="fa fa-square-o"></i> Filet Mignon tips, caramelized onion, Maytag bleu cheese, baguette slices <strong>+$2</strong><br><br>
-            <i class="fa fa-square-o"></i> Asian Vegetable & roasted cashew spring rolls, sweet n sour dipping sauce<br><br>
-            <i class="fa fa-square-o"></i> Mini potato & chive croquettes, black diamond cheddar fondue<br><br>
-            <i class="fa fa-square-o"></i> Tso’s chicken skewers, plum vinegar dipping sauce<br><br>
-            <i class="fa fa-square-o"></i> Goat cheese & fresh thyme fritters<br><br>
-            <i class="fa fa-square-o"></i> Chatham cod skewers, soy tamarind glaze <strong>+$2</strong><br><br>
-            <i class="fa fa-square-o"></i> Black bean & Jersey corn fritters, chipotle aioli<br><br>
-            <i class="fa fa-square-o"></i> Peppercorn crusted sliced NY strip, horseradish cream<br><br>
-            <i class="fa fa-square-o"></i> Crab Imperial, roasted corn & avocado relish<br><br>
-            <i class="fa fa-square-o"></i> Tuna Roll, Cali Roll, Vegetable roll<br><br>
-            <i class="fa fa-square-o"></i> House made Mozzarella - cherry tomato skewers, basil oil<br><br>
-            <i class="fa fa-square-o"></i> Spring Vegetable tartlet, pearl onion jam<br><br>
-            <i class="fa fa-square-o"></i> Crab Rangoon, red plum sauce <strong>+$2</strong><br><br>
-            <i class="fa fa-square-o"></i> Mini biscuits, chicken sausage & gravy<br><br>
-            <i class="fa fa-square-o"></i> Maitake mushroom & goat cheese strudel<br><br>
-        
-          </div>
           
 
         </div>

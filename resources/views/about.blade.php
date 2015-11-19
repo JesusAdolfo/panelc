@@ -1,6 +1,6 @@
 
 @extends('layout.main')
-@section('title'){{  ' About | Bleu Sky Catering'}}@endsection
+@section('title'){{  ' Acerca de Panel Ciudadano'}}@endsection
 @section('content')
 	@include('layout.partials.main-menu')
 
@@ -128,13 +128,14 @@
 			<div class="container">
 				<div id="owl-demo">
           
-				  <div class="item"><img src="{{ asset('css/imgs/foto1.jpg') }}" alt="Owl Image"></div>
-				  <div class="item"><img src="{{ asset('css/imgs/foto2.jpg') }}" alt="Owl Image"></div>
-				  <div class="item"><img src="{{ asset('css/imgs/foto3.jpg') }}" alt="Owl Image"></div>
-				  <div class="item"><img src="{{ asset('css/imgs/foto4.jpg') }}" alt="Owl Image"></div>
-				  <div class="item"><img src="{{ asset('css/imgs/foto1.jpg') }}" alt="Owl Image"></div>
-				  <div class="item"><img src="{{ asset('css/imgs/foto2.jpg') }}" alt="Owl Image"></div>
-		 
+				  <div class="item"><img src="{{ asset('css/imgs/foto1.png') }}" alt=""></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto2.png') }}" alt=""></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto3.png') }}" alt=""></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto4.png') }}" alt=""></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto5.png') }}" alt=""></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto6.png') }}" alt=""></div>
+				  <div class="item"><img src="{{ asset('css/imgs/foto7.png') }}" alt=""></div>
+
 				</div>
 			</div>
 		</div>
