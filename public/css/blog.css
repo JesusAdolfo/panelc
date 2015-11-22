@@ -127,11 +127,11 @@ section{
 }
 #owl-demo2 .item{
     background: #00b3ee;
-    height: 400px;
+    height: 450px;
     color: #FFF;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-position: center bottom !important;
+    background-position: center center !important;
 }
 #first-slide{background: url('imgs/gente1.jpg') !important;}
 #second-slide{background: url('imgs/gente2.jpg') !important;}

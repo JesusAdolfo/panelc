@@ -24,7 +24,7 @@
 
             <div class="item" id="first-slide">
                 <div class="textoverlay"><h1>Tu opinión construye tu mundo</h1><div align="center">
-                        <a href="{{route('about')}}" class="btn btn-web btn-lg">Leer más... </a>
+                        {{--<a href="{{route('about')}}" class="btn btn-web btn-lg">Leer más... </a>--}}
                     </div></div>
             </div>
             <div class="item" id="second-slide">

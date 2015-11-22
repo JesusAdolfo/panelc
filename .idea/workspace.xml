@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea877a44-e4f0-40d0-a26a-5ca9e38bf891" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\bella10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\bella11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\bella3original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\bella9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\foto1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\foto2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\foto3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\foto4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\foto5.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\foto6.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\foto7.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\panel\panelciudadano\public\css\imgs\contacto.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/imgs/gente1.jpg" afterPath="$PROJECT_DIR$/public/css/imgs/gente1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/imgs/gente2.jpg" afterPath="$PROJECT_DIR$/public/css/imgs/gente2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/blog.css" afterPath="$PROJECT_DIR$/public/css/blog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -39,7 +31,7 @@
     <favorites_list name="panelciudadano" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7227357">
+    <splitter split-orientation="horizontal" split-proportion="0.6296981">
       <split-first>
         <leaf>
           <file leaf-file-name="about.blade.php" pinned="false" current-in-tab="false">
@@ -65,11 +57,11 @@
           <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.873805" vertical-offset="3590" max-vertical-offset="5244">
-                  <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.79923517" vertical-offset="114" max-vertical-offset="5244">
+                  <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
                   <folding>
-                    <element signature="e#1232#1258#0#HTML" expanded="true" />
-                    <element signature="e#4590#4616#0#HTML" expanded="true" />
+                    <element signature="e#1240#1266#0#HTML" expanded="true" />
+                    <element signature="e#4598#4624#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -142,8 +134,8 @@
           <file leaf-file-name="blog.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/css/blog.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.49815497" vertical-offset="1634" max-vertical-offset="6647">
-                  <caret line="112" column="34" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+                <state vertical-scroll-proportion="0.300738" vertical-offset="2064" max-vertical-offset="6647">
+                  <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -565,8 +557,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1478" max-vertical-offset="4556">
           <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
           <folding>
-            <element signature="e#1232#1258#0#HTML" expanded="true" />
-            <element signature="e#4590#4616#0#HTML" expanded="true" />
+            <element signature="e#1240#1266#0#HTML" expanded="true" />
+            <element signature="e#4598#4624#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -736,19 +728,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49815497" vertical-offset="1634" max-vertical-offset="6647">
-          <caret line="112" column="34" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.300738" vertical-offset="2064" max-vertical-offset="6647">
+          <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.873805" vertical-offset="3590" max-vertical-offset="5244">
-          <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.79923517" vertical-offset="114" max-vertical-offset="5244">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
-            <element signature="e#1232#1258#0#HTML" expanded="true" />
-            <element signature="e#4590#4616#0#HTML" expanded="true" />
+            <element signature="e#1240#1266#0#HTML" expanded="true" />
+            <element signature="e#4598#4624#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
