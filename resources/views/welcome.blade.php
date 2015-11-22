@@ -79,7 +79,6 @@
                             <p class="text-center"><br/>Una vez al mes, el dinero  que hayas recaudado con tus respuestas, será depositado en tu cuenta
 
                                 corriente o cuenta vista.</p>
-                            <br/>
                         </div>
                     </div>
 

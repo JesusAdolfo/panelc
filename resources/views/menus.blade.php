@@ -5,25 +5,6 @@
 
 
 
-  <header id="header_menu">
-    <div class="blur">
-      <div id="title">
-        <h1>FAQ </h1>
-      </div>
-      <div id="subtitle">
-        <h2><i class="fa fa-book fa-question-circle"></i></h2>
-        <h4>
-          <br>Preguntas Frecuentes
-        </h4>
-      </div>
-    </div>
-  </header>
-  
-     {{--<div class="container">--}}
-       {{--<div class="well text-center">--}}
-        {{--<h4>Minimum order 10 persons. Service and delivery fee may apply</h4>--}}
-      {{--</div>--}}
-     {{--</div>--}}
   
 
   <div class="row-fluid">
@@ -52,7 +33,7 @@
               <h2>Panelistas / Miembros del Panel</h2>
               <br/><br/>
               <h3>¿Qué tengo que hacer como miembro de Panel Ciudadano?</h3>
-              <p class="text-justify">Los panelistas / miembros del panel reciben encuestas vía mensaje de texto (SMS) a sus teléfonos celulares. En su gran mayoría, las encuestas son 2 o 3 preguntas con alternativas de selección múltiple, y tú eliges la alternativa de tu preferencia. Lo hicimos por SMS para que sea lo más fácil y cómodo para ustedes. Una encuesta promedio no demora más de 30 segundos en ser contestada.</p>
+              <p class="text-justify">Como panelista / miembro del panel recibirás encuestas vía mensaje de texto (SMS) en tu teléfono celular. En su gran mayoría, las encuestas son 2 o 3 preguntas con alternativas de selección múltiple, y tú eliges la alternativa de tu preferencia. Lo hicimos por SMS para que sea lo más fácil y cómodo para ustedes. Una encuesta promedio no demora más de 30 segundos en ser contestada.</p>
 
               <br/><br/>
 
@@ -78,8 +59,8 @@
               <p class="text-justify">Nuestras encuestas cubren todo tipo de temas. Por eso nuestro panel es tan interesante! Temas de contingencia nacional o local, políticas del gobierno, nuevos servicios o productos que salieron al mercado, deportes, cultura, salud, etc.</p><br/><br/>
 
               <h3>¿Cómo se responde?</h3>
-              <p class="text-justify">Las preguntas vienen con alternativas múltiples y  usted debe responder ÚNICAMENTE  la alternativa elegida. Recuerde que no existen respuestas incorrectas, sólo necesitamos tu opinión.
-                  *Si recibe una “pregunta abierta”, es decir, una pregunta sin alternativas de respuesta, le señalaremos específicamente como responder.
+              <p class="text-justify">Las preguntas vienen con alternativas múltiples y debes responder ÚNICAMENTE  la alternativa elegida. Recuerda que no existen respuestas incorrectas, sólo necesitamos tu opinión.
+                  *Si recibe una “pregunta abierta”, es decir, una pregunta sin alternativas de respuesta, te señalaremos específicamente como responder.
               </p><br/><br/>
 
               <h3>¿Cuántas encuestas me enviarán? </h3>
@@ -114,6 +95,8 @@
               </h3>
 
               <p class="text-justify">              Una vez al mes, el dinero  que hayas recaudado con tus respuestas, será depositado en tu cuenta corriente o cuenta vista.
+                  <br/><br/>También tenemos otras formas de compensación para los que prefieren otras alternativas.
+
               </p><br/><br/>
 
 
@@ -133,18 +116,19 @@
 
               <p class="text-justify">Nosotros protegemos la identidad de todos los miembros de nuestro panel. La información que entregamos a nuestros clientes es anónima, y nunca enviaremos información personal. Agrupamos todas las respuestas y se presentan en un reporte estadístico. Es decir, trabajamos con información agregada, no individual.
                   Por ejemplo: <br/>
+              <div class="col-md-6">
                   <p class="text-center">
-                    <img class="img-responsive img-thumbnail" src="{{ asset('css/imgs/grafica1.png') }}" alt=""/>
+                      <img class="img-responsive img-thumbnail" src="{{ asset('css/imgs/grafica1.png') }}" alt=""/>
                   </p>
-                  Entre los que votaron por Matías Del Río, el 65% son mujeres.
-
-                  <br/><br/>
+              </div>
+              <div class="col-md-6">
               <p class="text-center">
+                  <br/>
                   <img class="img-responsive img-thumbnail" src="{{ asset('css/imgs/grafica2.png') }}" alt=""/>
-              </p>
-              La seguridad y privacidad de la información de los panelistas es clave para nuestro éxito y credibilidad.
+              </div>
 
-              </p><br/><br/>
+              <br/><br/>
+              <div class="clearfix"></div>
 
               <h3>              ¿Recolectan información sobre mi familia? ¿Sobre mis hijos?
               </h3>

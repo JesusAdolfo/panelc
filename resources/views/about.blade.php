@@ -78,41 +78,45 @@
 
         <div class="container">
             <div>
-                        <div class="col-md-6">
-                            <blockquote>
-                                Obtendrás entre $100 y $50 por cada respuesta que entregues. Si
+                        <div>
+                            <div class="col-md-6">
+                                <blockquote>
+                                    Obtendrás entre $100 y $50 por cada respuesta que entregues. Si
 
-                                contestas dentro de los primeros treinta minutos desde que recibiste
+                                    contestas dentro de los primeros treinta minutos desde que recibiste
 
-                                la pregunta, recibes $100. Si contestas después de treinta minutos
+                                    la pregunta, recibes $100. Si contestas después de treinta minutos
 
-                                recibes $50.
-                            </blockquote>
+                                    recibes $50.
+                                </blockquote>
+                            </div>
+
+
+                            <div class="col-md-5">
+                                <blockquote class="blockquote-reverse">
+                                    La mayoría de las veces, estas preguntas se harán vía SMS, con lo que
+
+                                    podrás contestar muy rápidamente (sólo respondiendo la letra de la alternativa que elijas)
+
+                                    y sin  interrumpir tus actividades cotidianas.
+                                </blockquote>
+                            </div>
                         </div>
 
-
-                        <div class="col-md-6">
-                            <blockquote class="blockquote-reverse">
-                                La mayoría de las veces, estas preguntas se harán vía SMS, con lo que
-
-                                podrás contestar muy rápidamente (sólo respondiendo la letra de la alternativa que elijas)
-
-                                y sin  interrumpir tus actividades cotidianas.
-                            </blockquote>
-                        </div>
-
-                        <div class="col-md-6">
-                            <blockquote>
-                                Obtén recompensas cada vez que contestas una pequeña encuesta, tres
+                        <div>
+                            <div class="col-md-6">
+                                <blockquote>
+                                    Obtén recompensas cada vez que contestas una pequeña encuesta, tres
 
                                     o cuatro veces al mes.
-                            </blockquote>
-                        </div>
+                                </blockquote>
+                            </div>
 
-                        <div class="col-md-6">
-                            <blockquote class="blockquote-reverse">
-                                Tu privacidad y la confidencialidad de tus respuestas están protegidas.
-                            </blockquote>
+                            <div class="col-md-5">
+                                <blockquote class="blockquote-reverse">
+                                    Tu privacidad y la confidencialidad de tus respuestas están protegidas.
+                                </blockquote>
+                            </div>
                         </div>
 
 

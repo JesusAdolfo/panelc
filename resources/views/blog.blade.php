@@ -1,22 +1,7 @@
 @extends('layout.main')
-@section('title'){{  ' Blog | Bleu Sky Catering'}}@endsection
+@section('title'){{  ' Resultados | Panel Ciudadano'}}@endsection
 @section('content')
 	@include('layout.partials.main-menu')
-
-	<header id="header_blog">
-		<div class="blur">
-			<div id="title">
-				<h1>Resultados</h1>
-			</div>
-			<div id="subtitle">
-				<h2><i class="fa fa-newspaper-o"></i></h2> 
-				<h4>
-					<br>
-
-				</h4>
-			</div>
-		</div>
-	</header>
 	
 	<section id="posts">
 		<div class="row-fluid">

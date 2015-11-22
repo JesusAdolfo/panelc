@@ -3,25 +3,14 @@
 @section('content')
 @include('layout.partials.main-menu')
 
-<header id="header_contact">
-	<div class="blur">
-		<div id="title">
-			<h1>Contacto</h1>
-		</div>
-		<div id="subtitle">
-			<h2><i class="fa fa-envelope"></i></h2>
-			<h4>
-				<br>
-				Dejanos un mensaje
-			</h4>
-		</div>
-	</div>
-</header>
 
 <div class="row-fluid">
+    <br/>
 	<div class="container">
 		<div class="jumbotron text-center">
-            <a href="gobierno.udd.cl"><h2>Página web de la Universidad de Desarrollo</h2></a>
+            <p>
+                Si tienes cualquier duda, comentario o sugerencia, escríbenos a panel@udd.cl o por medio de nuestro formulario de contacto
+            </p>
 
 		</div>
 
@@ -74,7 +63,9 @@
             </fieldset>
             {!! Form::close() !!}
         </div>
-        <div class="col-md-6"><iframe src="https://www.google.com/maps/d/embed?mid=zN8xmfo0Ry2E.kE6uaJ4j3xCc&z=15" width="100%" height="480"></iframe></div>
+        <div class="col-md-6 text-right"><iframe src="https://www.google.com/maps/d/embed?mid=zN8xmfo0Ry2E.kE6uaJ4j3xCc&z=15" width="100%" height="480"></iframe>
+            <a href="http://gobierno.udd.cl/">http://gobierno.udd.cl/</a>
+        </div>
 
 
 

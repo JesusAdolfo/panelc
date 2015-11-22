@@ -1,4 +1,7 @@
 /*Fonts*/
+*{
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 h6{
     font-weight: normal;
 }
