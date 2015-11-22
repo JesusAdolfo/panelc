@@ -125,7 +125,7 @@
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="circle">
                     <h2>3</h2>
-                    <h3>Contesta rapido, <br/> dobla tu ganancia</h3>
+                    <h3>Contesta rápido, <br/> dobla tu ganancia</h3>
                     <span class="fa fa-5x fa-clock-o"></span>
                 </div>
 
