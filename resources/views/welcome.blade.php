@@ -18,7 +18,7 @@
 					</div>
 				</div>
 			@endif
-
+    <br/>
     <section id="main-slider">
         <div id="owl-demo2" class="owl-carousel owl-theme">
 
@@ -106,7 +106,7 @@
 
         <div class="clearfix"></div>
         <div id="steps" class="col-md-12 jumbotron">
-            <h1 class="text-center">¿Cómo funciona?</h1>
+            <h2 class="text-center" style="margin-top: -20px;">¿Cómo funciona?</h2>
             <div class="col-lg-3 col-md-6">
                 <div class="circle">
                     <h2>1</h2>
@@ -159,7 +159,7 @@
                         </blockquote>
                     </div>
 
-
+                    <div class="class col-md-1"></div>
                     <div class="col-md-5">
                         <blockquote class="blockquote-reverse">
                             La mayoría de las veces, estas preguntas se harán vía SMS, con lo que
@@ -171,7 +171,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="">
                     <div class="col-md-6">
                         <blockquote>
                             Obtén recompensas cada vez que contestas una pequeña encuesta, tres
@@ -179,7 +179,7 @@
                             o cuatro veces al mes.
                         </blockquote>
                     </div>
-
+                    <div class="class col-md-1"></div>
                     <div class="col-md-5">
                         <blockquote class="blockquote-reverse">
                             Tu privacidad y la confidencialidad de tus respuestas están protegidas.
@@ -200,13 +200,17 @@
             <div class="container">
                 <div id="owl-demo">
 
-                    <div class="item"><img src="{{ asset('css/imgs/foto1.png') }}" alt=""></div>
-                    <div class="item"><img src="{{ asset('css/imgs/foto2.png') }}" alt=""></div>
-                    <div class="item"><img src="{{ asset('css/imgs/foto3.png') }}" alt=""></div>
-                    <div class="item"><img src="{{ asset('css/imgs/foto4.png') }}" alt=""></div>
-                    <div class="item"><img src="{{ asset('css/imgs/foto5.png') }}" alt=""></div>
-                    <div class="item"><img src="{{ asset('css/imgs/foto6.png') }}" alt=""></div>
-                    <div class="item"><img src="{{ asset('css/imgs/foto7.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto1.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto2.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto3.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto4.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto5.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto6.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto7.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto8.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto9.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto10.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto11.jpg') }}" alt=""></div>
 
                 </div>
             </div>
