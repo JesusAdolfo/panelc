@@ -87,128 +87,173 @@
             </div>
         </div>
     </section>
+    <div class="row-fluid">
+        <div class="container">
+            <div class="jumbotron">
+                <h2>Acerca de Panel Ciudadano</h2>
+                <p class="text-justify">
+                    Panel Ciudadano de la Facultad de Gobierno UDD, es una comunidad exclusiva que representa al país con sus opiniones. Empresas, ONG’s, Fundaciones, Servicios Públicos, investigadores  y autoridades de todas las áreas de la sociedad necesitan saber la opinión de los ciudadanos y entender sus preferencias. Tu hogar ha sido seleccionado para ser parte de esta comunidad e influenciar directamente tu mundo. Además obtendrás recompensas sólo por compartir tu opinión y preferencias.
+                <h2>
+                    Facultad de Gobierno Universidad del Desarrollo
+                </h2>
+                <p class="text-justify">
+
+                    Nuestra misión es comprender e influenciar el proceso de generación,  gestión y aplicación de políticas públicas, a través del estudio e investigación en ciencia política y áreas relevantes, y formar profesionales del mejor nivel con habilidades de liderazgo e innovación en el ámbito público.
+
+                </p>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div id="steps" class="col-md-12 jumbotron">
+            <h1 class="text-center">¿Cómo funciona?</h1>
+            <div class="col-lg-3 col-md-6">
+                <div class="circle">
+                    <h2>1</h2>
+                    <h2> Recibe <br/> las preguntas <br/></h2>
+                    <span class="fa fa-5x fa-mobile-phone"></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="circle">
+                    <h2>2</h2>
+                    <h2>Responde <br/> la encuesta!</h2>
+
+                    <i class="fa fa-4x fa-paper-plane"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="circle">
+                    <h2>3</h2>
+                    <h3>Contesta rapido, <br/> dobla tu ganancia</h3>
+                    <span class="fa fa-5x fa-clock-o"></span>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="circle">
+                    <h2>4</h2>
+                    <h2>Recibe <br/> tu premio!</h2>
+                    <span class="fa fa-4x fa-money"></span>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="container">
+            <div>
+                <div>
+                    <div class="col-md-6">
+                        <blockquote>
+                            Obtendrás entre $100 y $50 por cada respuesta que entregues. Si
+
+                            contestas dentro de los primeros treinta minutos desde que recibiste
+
+                            la pregunta, recibes $100. Si contestas después de treinta minutos
+
+                            recibes $50.
+                        </blockquote>
+                    </div>
+
+
+                    <div class="col-md-5">
+                        <blockquote class="blockquote-reverse">
+                            La mayoría de las veces, estas preguntas se harán vía SMS, con lo que
+
+                            podrás contestar muy rápidamente (sólo respondiendo la letra de la alternativa que elijas)
+
+                            y sin  interrumpir tus actividades cotidianas.
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="col-md-6">
+                        <blockquote>
+                            Obtén recompensas cada vez que contestas una pequeña encuesta, tres
+
+                            o cuatro veces al mes.
+                        </blockquote>
+                    </div>
+
+                    <div class="col-md-5">
+                        <blockquote class="blockquote-reverse">
+                            Tu privacidad y la confidencialidad de tus respuestas están protegidas.
+                        </blockquote>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="row-fluid">
+            <div class="container">
+                <div id="owl-demo">
+
+                    <div class="item"><img src="{{ asset('css/imgs/foto1.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto2.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto3.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto4.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto5.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto6.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto7.png') }}" alt=""></div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
 	<section id="posts">
 		<div class="row-fluid">
 			<div class="container">
-				<div class="col-md-4">
 
-					<div class="jumbotron">
-                        <h3> Sobre nosotros</h3>
-                        <div class="text-justify">
+                <div class="well">
+                    <h2 class="text-center">
+                        Resultados recientes
+                    </h2>
+                </div>
 
-                            <h6>                            <strong>Panel Ciudadano</strong> de la Facultad de Gobierno UDD, es una comunidad exclusiva que representa al país con sus opiniones. Empresas, ONG’s, Fundaciones, Servicios Públicos, investigadores  y autoridades de todas las áreas de la sociedad necesitan saber la opinión de los ciudadanos y entender sus preferencias. Tu hogar ha sido seleccionado para ser parte de esta comunidad e influenciar directamente tu mundo. Además obtendrás recompensas sólo por compartir tu opinión y preferencias.
-                            </h6>
-
-                        </div>
-
-                        <br/>
-                        <div align="center">
-                            <a href="{{route('about')}}" class="btn btn-info center">Leer más...</a>
-                        </div>
-                    </div>
-
-
-
-
-					<legend>Contacto</legend>
-					<ul>
-					    @foreach($errors->all() as $error)
-					        <li>{{ $error }}</li>
-					    @endforeach	
-					</ul>
-					{!! Form::open(array('route' => 'contact_store', 'class' => 'form')) !!}
-						<fieldset>
-							<div class="form-group">
-								<div class="col-lg-12">
-									{!! Form::text('name', null, 
-								        array('required', 
-								              'class'=>'form-control', 
-								              'placeholder'=>'Nombre')) !!}
-								</div>
-							</div>
-							<br>
-							<div class="form-group">
-								<div class="col-lg-12">
-									{!! Form::text('email', null, 
-								        array('required', 
-								              'class'=>'form-control', 
-								              'placeholder'=>'E-mail')) !!}
-								</div>
-							</div>
-							<br>
-							<div class="form-group">
-								<div class="col-lg-12">
-									{!! Form::textarea('message', null, 
-								        array('required', 
-								              'class'=>'form-control', 
-								              'placeholder'=>'Mensaje')) !!}
-									<span class="help-block"></span>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary"> Enviar <i class="fa fa-paper-plane"></i></button>
-									<br>
-									<br>
-								</div>
-							</div>
-						</fieldset>
-					{!! Form::close() !!}
-				</div>
-
-				<div class="col-md-4">
-
+				<div>
 					@foreach($posts as $p)
-						<h3 class="text-center">{{$p->title}}</h3>
-						<div align="center">
-							<img src="{{$p->photo}}" class="img-responsive img-thumbnail" alt="{{$p->title}}" >
-						</div>
-						</br>
-						<h5 class="text-justify">
-							{!! substr($p->content, 0, 100). '...' !!}
-						</h5>
+						<div class="col-md-6">
+                            <h3 class="text-center">{{$p->title}}</h3>
+                            <div align="center">
+                                <img src="{{$p->photo}}" class="img-responsive img-thumbnail" alt="{{$p->title}}" >
+                            </div>
+                            </br>
+                            <h5 class="text-justify">
+                                {!! substr($p->content, 0, 100). '...' !!}
+                            </h5>
 
-						<div align="center">
-							<h5 class="text-info">Temas relacionados:</h5>
-							<?php
-								$tags = explode(',', $p->tags);
-							?>
-							@foreach($tags as $t)
-								<a href="index.php/tag/{{$t}}"><label class="label label-primary">{{$t}}</label></a>
-							@endforeach
-						</div>
-						<br>
-						<div align="center">
-							<a href="index.php/articles/{{$p->slug}}" class="btn btn-info">Leer artículo...</a>
-						</div>
-						
-					    </br>
+                            <div align="center">
+                                <h5 class="text-info">Temas relacionados:</h5>
+                                <?php
+                                $tags = explode(',', $p->tags);
+                                ?>
+                                @foreach($tags as $t)
+                                    <a href="index.php/tag/{{$t}}"><label class="label label-primary">{{$t}}</label></a>
+                                @endforeach
+                            </div>
+                            <br>
+                            <div align="center">
+                                <a href="index.php/articles/{{$p->slug}}" class="btn btn-info">Leer artículo...</a>
+                            </div>
+
+                            </br>
+                        </div>
 					@endforeach
 				</div>
-				<div class="col-md-4">
-                    <div class="jumbotron">
-                        <h3>Hazte miembro </h3>
-                        <div class="text-justify">
 
-                            <h6>
-                                Si tu vivienda ha sido seleccionada para participar en este panel de
-
-                                opinión, recibirás una carta de invitación. Una vez que des tu
-
-                                consentimiento para participar, uno de nuestros investigadores te llamará
-
-                                o visitará en tu casa para que completemos tu perfil.
-                            </h6>
-                        </div>
-                    </div>
-
-
-
-
-
-				</div>
-
-					
 			</div>
 		</div>
 
