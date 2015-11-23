@@ -80,7 +80,7 @@ return [
 	|
 	*/
 
-	'username' => 'bleuskyycatering.outgoing@gmail.com',
+	'username' => 'noreply.panelciudadano@gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
 	|
 	*/
 
-	'password' => 'pNPdy84J"p',
+	'password' => '065b62o3ChY9',
 
 	/*
 	|--------------------------------------------------------------------------
