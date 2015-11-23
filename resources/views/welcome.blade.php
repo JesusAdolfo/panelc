@@ -28,10 +28,11 @@
                     </div></div>
             </div>
             <div class="item" id="second-slide">
-                <div class="textoverlay"><h1>Influye en temas que nos afectan a todos</h1></div>
+                <br/>
+                <div class="textoverlay">&nbsp;<h1 class="text-center">Influye en temas <br/> <span class="left-space">que nos afectan a todos</span></h1></div>
             </div>
-            <div class="item" id="third-slide">
-                <div class="textoverlay"><h1 style="margin-top: -50px;">Hazte escuchar. <br/> Simple y rápido. <br/> Recibe premios.</h1></div>
+            <div class="item" id="third-slide" >
+                <div class="textoverlay"><h1 style="margin-top: -30px;">Hazte escuchar. <br/> Simple y rápido.</h1></div>
             </div>
 
         </div>
@@ -200,8 +201,6 @@
             <div class="container">
                 <div id="owl-demo">
 
-                    <div class="item"><img src="{{ asset('css/imgs/foto1.jpg') }}" alt=""></div>
-                    <div class="item"><img src="{{ asset('css/imgs/foto2.jpg') }}" alt=""></div>
                     <div class="item"><img src="{{ asset('css/imgs/foto3.jpg') }}" alt=""></div>
                     <div class="item"><img src="{{ asset('css/imgs/foto4.jpg') }}" alt=""></div>
                     <div class="item"><img src="{{ asset('css/imgs/foto5.jpg') }}" alt=""></div>
@@ -209,8 +208,6 @@
                     <div class="item"><img src="{{ asset('css/imgs/foto7.jpg') }}" alt=""></div>
                     <div class="item"><img src="{{ asset('css/imgs/foto8.jpg') }}" alt=""></div>
                     <div class="item"><img src="{{ asset('css/imgs/foto9.jpg') }}" alt=""></div>
-                    <div class="item"><img src="{{ asset('css/imgs/foto10.jpg') }}" alt=""></div>
-                    <div class="item"><img src="{{ asset('css/imgs/foto11.jpg') }}" alt=""></div>
 
                 </div>
             </div>

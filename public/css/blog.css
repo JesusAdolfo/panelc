@@ -136,7 +136,15 @@ section{
 }
 #first-slide{background: url('imgs/gente1.jpg') !important;}
 #second-slide{background: url('imgs/gente2.jpg') !important;}
-#third-slide{background: url('imgs/gente3.jpg') !important;}
+#second-slide .textoverlay{
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.left-space{
+
+}
+
+#third-slide{background: url('imgs/foto2.jpg') !important;}
 
 #first-photo{background: url('imgs/foto1.jpg') !important;}
 #second-photo{background: url('imgs/foto2.jpg') !important;}
@@ -298,7 +306,7 @@ footer a:visited{
 		background-attachment: fixed;
 	}
     .navbar-brand img{
-        width: 220px;
+        width: 200px;
         margin-top: 30px;
     }
 	footer{
