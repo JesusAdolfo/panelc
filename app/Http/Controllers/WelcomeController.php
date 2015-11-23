@@ -74,10 +74,10 @@ class WelcomeController extends Controller {
 	        ), function($message)
 	    {
 	        $message->from('randomized@gmail.com');
-	        $message->to('nhojfehc1@hotmail.com', 'Admin')->subject('Contact Form Sent From Bleu Skyy Website');
+	        $message->to('rodriguezjesus609@gmail.com', 'Admin')->subject('Contacto enviado desde Panel Ciudadano');
 	    });
 
-		return \Redirect::route('home')->with('alert', 'Your message has been sent!');
+		return \Redirect::route('home')->with('alert', 'Tu mensaje ha sido enviado!');
 
 	}
 

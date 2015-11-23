@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Bleu Skyy Mail</title>
+	<title>Correo Panel Ciudadano</title>
 </head>
 <body>
 	<p>Name: {{$name}}</p>
