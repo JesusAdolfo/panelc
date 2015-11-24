@@ -208,6 +208,12 @@
                     <div class="item"><img src="{{ asset('css/imgs/foto7.jpg') }}" alt=""></div>
                     <div class="item"><img src="{{ asset('css/imgs/foto8.jpg') }}" alt=""></div>
                     <div class="item"><img src="{{ asset('css/imgs/foto9.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto10.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto11.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto12.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto13.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto14.jpg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('css/imgs/foto15.jpg') }}" alt=""></div>
 
                 </div>
             </div>

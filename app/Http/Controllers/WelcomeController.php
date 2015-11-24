@@ -74,7 +74,7 @@ class WelcomeController extends Controller {
 	        ), function($message)
 	    {
 	        $message->from('randomized@gmail.com');
-	        $message->to('rodriguezjesus609@gmail.com', 'Admin')->subject('Contacto enviado desde Panel Ciudadano');
+	        $message->to('panel@udd.cl', 'Admin')->subject('Contacto enviado desde Panel Ciudadano');
 	    });
 
 		return \Redirect::route('home')->with('alert', 'Tu mensaje ha sido enviado!');
