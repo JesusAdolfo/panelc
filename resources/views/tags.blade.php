@@ -1,5 +1,5 @@
 @extends('layout.main')
-@section('title'){{'Tag content | Bleu Sky'}}@endsection
+@section('title'){{'Temas Relacionados | Panel Ciudadano'}}@endsection
 @section('content')
 @include('layout.partials.main-menu')	
 <div class="row-fluid" id="tag">
