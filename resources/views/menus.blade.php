@@ -88,7 +88,7 @@
               <h3>              ¿Cómo gano dinero con mis respuestas?
               </h3>
 
-              <p class="text-justify"> Con cada respuesta que nos envías acumulas dinero.. Si contestas dentro de los primeros 30 minutos desde que recibiste la pregunta, recibes $100. Si contestas después de 30 minutos recibes $50.
+              <p class="text-justify"> Con cada respuesta que nos envías acumulas dinero. Si contestas dentro de los primeros 30 minutos desde que recibiste la pregunta, recibes $100. Si contestas después de 30 minutos recibes $50.
               </p><br/><br/>
 
               <h3>              ¿Cómo puedo canjear las recompensas?
