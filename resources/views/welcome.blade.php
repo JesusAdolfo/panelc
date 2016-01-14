@@ -77,9 +77,7 @@
                             <br/>
                             <i class="fa fa-3x fa-money"></i>
 
-                            <p class="text-center"><br/>Una vez al mes, el dinero  que hayas recaudado con tus respuestas, será depositado en tu cuenta
-
-                                corriente o cuenta vista.</p>
+                            <p class="text-center"><br/>Una vez al mes, el dinero que hayas recaudado con tus respuestas lo podrás canjear por diversos productos como entradas al cine y comida rápida.</p>
                         </div>
                     </div>
 
@@ -135,7 +133,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="circle">
                     <h2>4</h2>
-                    <h2>Recibe <br/> tu premio!</h2>
+                    <h2>Canjea <br/> tu premio!</h2>
                     <span class="fa fa-4x fa-money"></span>
 
                 </div>
@@ -150,7 +148,7 @@
                 <div>
                     <div class="col-md-6">
                         <blockquote>
-                            Obtendrás entre $100 y $50 por cada respuesta que entregues. Si
+                            Acumulas entre $100 y $50 por cada respuesta que entregues. Si
 
                             contestas dentro de los primeros treinta minutos desde que recibiste
 
